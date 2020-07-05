@@ -10,6 +10,9 @@ import ReactDOM from 'react-dom';
 import BadgeNew from './Pages/BadgeNew';
 import 'bootstrap/dist/css/bootstrap.css';
 import './global.css';
+
+import App from './Components/App';
+
 //const jsx = <h1>hello de Nuevo manito</h1>
 //const element = React.createElement('a', {href: 'https://platzi.com'},'Vamos por el curso');
 
@@ -27,7 +30,7 @@ import './global.css';
 const container = document.getElementById('app');
 
 //ReactDOM.render(__qué__; __donde__);
-ReactDOM.render(<BadgeNew />,container);
+ReactDOM.render(<App />,container);
 
 
 

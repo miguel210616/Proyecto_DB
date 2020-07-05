@@ -21,7 +21,7 @@ class Badge extends React.Component {
             </div>
 
             <div className = "Badge__footer">
-                #platziconf
+                #Data_basee
             </div>
         </div>;
     }
